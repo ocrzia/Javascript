@@ -142,6 +142,7 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 
 ### Identifiants et classes
 - **id** : Identifiant.
+- **tagName** : Nom de la balise.
 - **className** : Classes en texte.
 - **classList** : Liste de classes manipulables.
 
