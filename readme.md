@@ -7,10 +7,15 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 2. [Conditions](https://github.com/ocrzia/JS2--Conditions)
 3. [Pair & Impair](https://github.com/ocrzia/JS3--Pair-impair)
 4. [Random Number](https://github.com/ocrzia/JS4-Random-number)
+5. [Timer](https://github.com/ocrzia/JS5--Timer)
+6. [Shopping List](https://github.com/ocrzia/JS6-Shopping-list)
+7. [Koalas](https://github.com/ocrzia/JS7-Delegation-evt)
+8. [Notes école](https://ocrzia.github.io/JS8-Notes-ecole/)
+9. [Movie Filters](https://github.com/ocrzia/JS9-Films-filter-correction)
 
 ## 1. Tableaux (`Array`)
 
-<!-- ### Méthodes de base
+ ### Méthodes de base
 - **push()** : Ajoute un élément à la fin du tableau.
 - **pop()** : Retire le dernier élément.
 - **shift()** : Retire le premier élément.
@@ -31,13 +36,13 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 ### Autres
 - **join()** : Transforme en chaîne de caractères.
 - **sort()** : Trie les éléments.
-- **reverse()** : Inverse l’ordre des éléments. -->
+- **reverse()** : Inverse l’ordre des éléments.
 
 ---
 
 ## 2. Chaînes de caractères (`String`)
 
-<!-- ### Propriétés et méthodes
+### Propriétés et méthodes
 - **length** : Longueur de la chaîne.
 - **charAt(index)** : Caractère à une position donnée.
 - **includes()** : Vérifie si une sous-chaîne est présente.
@@ -46,7 +51,7 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 - **toLowerCase()** / **toUpperCase()** : Minuscule / Majuscule.
 - **replace()** : Remplace une partie de la chaîne.
 - **split()** : Découpe une chaîne en tableau.
-- **trim()** : Supprime les espaces avant/après. -->
+- **trim()** : Supprime les espaces avant/après.
 
 ---
 
@@ -101,7 +106,6 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 - **document.getElementById("id")** : sélectionne par l'ID
 - **document.querySelector("selector")** : sélectionne le premier élément qu'il rencontre par le sélecteur CSS indiqué (attention à bien indiquer . & #)
 - **document.querySelectorAll("selector")** : sélectionne la collection des éléments par le sélecteur CSS indiqué
-- **element.closest("selector")** : cherche l'élément le plus proche du sélecteur (dans sa hiérarchie parentale)
 
 ## ➕ Ajout ou suppression d’éléments
 - **element.appendChild(nouvelElement)** : ajoute un enfant
@@ -116,6 +120,7 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 - **element.removeAttribute("attribut")** : enlève l'attribut sélectionné
 
 ## 🧭 Navigation dans le DOM
+- **element.closest("selector")** : cherche l'élément le plus proche du sélecteur (dans sa hiérarchie parentale)
 - **element.parentElement** : va chercher le parent direct de l'élément sélectionné
 - **element.children** : va chercher la collection de tous les enfants directs de l'élément sélectionné
 - **element.nextElementSibling** : va chercher l'élément frère/soeur qui suit directement l'élément sélectionné
