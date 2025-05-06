@@ -125,6 +125,7 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 - **element.children** : va chercher la collection de tous les enfants directs de l'élément sélectionné
 - **element.nextElementSibling** : va chercher l'élément frère/soeur qui suit directement l'élément sélectionné
 - **element.previousElementSibling** : va chercher l'élément frère/soeur qui précède directement l'élément sélectionné
+- **element.matches("selector")** : si l'élément correspond au sélecteur mentionné
 
 ## Propriétés DOM fréquentes
 
