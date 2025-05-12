@@ -2,6 +2,22 @@
 
 Récap de tout ce qu'on a déjà vu ensemble en Javascript 
 
+## Concepts clés
+
+1. Variables (let, const ... et var)
+2. Types de données (string, boolean, null, undefined, array, object)
+3. Conditions (if, else, switch)
+4. Boucles (forEach, for, while, do ... while)
+5. Opérateurs (arithmétiques (+, -, *, /, %), logiques (&&, ||, !), comparaison (===, ==, !=, !==, >, <, >=, <=) )
+6. Fonctions (déclaration, appel, paramètres (& arguments), retour)
+7. Fonction fléchées ( () => {} )
+<!--
+8. Portée (scope) & hoisting
+9. Fonctions imbriquées
+10. Déstructuration de tableaux / d'objets
+11. Opérateur rest/spread ( ... )
+-->
+
 ## Nos exercices
 1. [Compteur / Dark Mode](https://github.com/ocrzia/JS1--Compteur-darkmode)
 2. [Conditions](https://github.com/ocrzia/JS2--Conditions)
@@ -12,6 +28,9 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 7. [Koalas](https://github.com/ocrzia/JS7-Delegation-evt)
 8. [Notes école](https://ocrzia.github.io/JS8-Notes-ecole/)
 9. [Movie Filters](https://github.com/ocrzia/JS9-Films-filter-correction)
+10. [Conversion température](https://github.com/ocrzia/JS10-Conversion-temp-fct)
+11. [Progress Bar & Sticky menu](https://github.com/ocrzia/JS11-Progress-bar-sticky-menu)
+12. [Gestion des dépenses](https://github.com/ocrzia/gestion-depenses) & [Gestion des dépenses + Bonus](https://github.com/ocrzia/JS12-Gestion-depenses-full)
 
 ## 1. Tableaux (`Array`)
 
@@ -57,13 +76,13 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 
 ## 3. Nombres (`Number`)
 
-<!-- ### Méthodes
+### Méthodes
 - **toFixed()** : Fixe le nombre de décimales (retourne une chaîne).
 - **toString()** : Convertit en chaîne.
 - **toPrecision()** : Arrondit avec précision globale.
 
 ### Méthodes globales
-- **Number.isNaN()**, **Number.isInteger()**, **Number.isFinite()** : Vérifications de validité. -->
+- **Number.isNaN()**, **Number.isInteger()**, **Number.isFinite()** : Vérifications de validité.
 
 ---
 
@@ -72,8 +91,6 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 ### Méthodes mathématiques
 - **Math.round()**, **Math.floor()**, **Math.ceil()**
 - **Math.random()** : Nombre pseudo-aléatoire entre 0 et 1.
-<!-- - **Math.max()**, **Math.min()** -->
-<!-- - **Math.abs()**, **Math.pow()**, **Math.sqrt()** -->
 
 ---
 
@@ -126,6 +143,14 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 - **element.nextElementSibling** : va chercher l'élément frère/soeur qui suit directement l'élément sélectionné
 - **element.previousElementSibling** : va chercher l'élément frère/soeur qui précède directement l'élément sélectionné
 - **element.matches("selector")** : si l'élément correspond au sélecteur mentionné
+
+## 🧪 Création d'élément HTML (+ Ajout d'attributs, de CSS, etc.)
+- **document.createElement(tagName)** : crée un élément HTML du type spécifié
+- **element.className = 'classe1 classe2 classe3'** : Ajoute une ou plusieurs classes sur l'élement
+- **element.style. ... = valeur** : Ajoute du CSS sur l'élément (les ... sont à remplacer par la propriété et valeur par la valeur de cette propriété)
+- **element.setAttribute("attribut", "valeur")** : met l'attribut sélectionné à une certaine valeur
+- **element.id = 'monid'** : Ajoute l'ID spécifié sur l'élément
+- **element.title = 'Mon title'** : Ajoute l'attribut Title sur l'élément
 
 ## Propriétés DOM fréquentes
 
