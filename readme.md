@@ -7,16 +7,15 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 1. Variables (let, const ... et var)
 2. Types de données (string, boolean, null, undefined, array, object)
 3. Conditions (if, else, switch)
-4. Boucles (forEach, for, while, do ... while)
+4. Boucles (forEach, for, for ... in, for ... of, while)
 5. Opérateurs (arithmétiques (+, -, *, /, %), logiques (&&, ||, !), comparaison (===, ==, !=, !==, >, <, >=, <=) )
 6. Fonctions (déclaration, appel, paramètres (& arguments), retour)
 7. Fonction fléchées ( () => {} )
-<!--
-8. Portée (scope) & hoisting
-9. Fonctions imbriquées
-10. Déstructuration de tableaux / d'objets
-11. Opérateur rest/spread ( ... )
--->
+8. Fonctions imbriquées
+<!-- 9. Portée (scope) & hoisting -->
+<!-- 10. Déstructuration de tableaux / d'objets -->
+<!-- 11. Opérateur rest/spread ( ... ) -->
+
 
 ## Nos exercices
 1. [Compteur / Dark Mode](https://github.com/ocrzia/JS1--Compteur-darkmode)
@@ -31,6 +30,7 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 10. [Conversion température](https://github.com/ocrzia/JS10-Conversion-temp-fct)
 11. [Progress Bar & Sticky menu](https://github.com/ocrzia/JS11-Progress-bar-sticky-menu)
 12. [Gestion des dépenses](https://github.com/ocrzia/gestion-depenses) & [Gestion des dépenses + Bonus](https://github.com/ocrzia/JS12-Gestion-depenses-full)
+13. [App de commande](https://github.com/ocrzia/J13-Objects-commande)
 
 ## 1. Tableaux (`Array`)
 
@@ -94,15 +94,15 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 
 ---
 
-## 5. Dates (`Date`)
+## 5. Objet [Date](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-<!-- ### Lecture de date
+### Lecture de date
 - **getFullYear()**, **getMonth()**, **getDate()**
 - **getDay()**, **getHours()**, **getMinutes()**, **getSeconds()**
 
 ### Formatage
 - **toLocaleDateString()** : Format lisible.
-- **toISOString()** : Format ISO. -->
+- **toISOString()** : Format ISO.
 
 ---
 
