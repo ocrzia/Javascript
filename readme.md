@@ -2,7 +2,7 @@
 
 Récap de tout ce qu'on a déjà vu ensemble en Javascript 
 
-## Concepts clés
+## 🧠 Les bases
 
 1. Variables (let, const ... et var)
 2. Types de données (string, boolean, null, undefined, array, object)
@@ -11,7 +11,32 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 5. Opérateurs (arithmétiques (+, -, *, /, %), logiques (&&, ||, !), comparaison (===, ==, !=, !==, >, <, >=, <=) )
 6. Fonctions (déclaration, appel, paramètres (& arguments), retour)
 7. Fonction fléchées ( () => {} )
-8. Fonctions imbriquées
+8. Template literals ( `${variable}`)
+
+## 📚 Manipulation de données
+
+1. Tableaux : création, accès, modification
+2. Objects : Création, accès, modification
+3. Boucles sur les objets & tableaux (forEach, map, filter, reduce, some, every, etc.)
+4. Clés dynamiques dans un objet ( [ ... ])
+5. JSON (parse & stringify(localStorage))
+
+## 🎯 Manipulation du DOM
+1. Sélection d'éléments (querySelector, querySelectorAll, getElemendById, closest)
+2. Modification de contenu texte ou HTML
+3. Manipulation des classes (classList ou className)
+4. Création & suppression d'éléments (createElement, append, remove)
+5. Manipulation d'attributes (getAttribute, setAttribute, dataset (data-attributes))
+6. Événements (click, input, submit, scroll, change)
+7. Délégation d'événements
+8. Formulaires & récupération des données utilisateurs
+
+## 🧪 Programmation orientée objet
+1. Création de classes (class, constructor, polymorphisme)
+2. Méthodes d'instance
+3. Héritage (extends & super)
+4. Interaction entre objets
+
 <!-- 9. Portée (scope) & hoisting -->
 <!-- 10. Déstructuration de tableaux / d'objets -->
 <!-- 11. Opérateur rest/spread ( ... ) -->
