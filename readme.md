@@ -58,6 +58,7 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 15. [ScrollSpy (Bonus)](https://github.com/ocrzia/JS15-ScrollSpy)
 16. [Clés dynamiques dans les objets](https://github.com/ocrzia/JS16-Cle-dynamique)
 17. [Commandes groupées par table](https://github.com/ocrzia/JS17-Commandes-table)
+18. [Polymorphisme, extends & super](https://github.com/ocrzia/JS18-Polymorphisme-extends-super)
 
 ## Drill Supp
 1. [Exo supp Objets & Class 1](https://github.com/ocrzia/drill-objects-1)
