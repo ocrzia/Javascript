@@ -3,7 +3,6 @@
 Récap de tout ce qu'on a déjà vu ensemble en Javascript 
 
 ## 🧠 Les bases
-
 1. Variables (let, const ... et var)
 2. Types de données (string, boolean, null, undefined, array, object)
 3. Conditions (if, else, switch)
@@ -14,7 +13,6 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 8. Template literals ( `${variable}`)
 
 ## 📚 Manipulation de données
-
 1. Tableaux : création, accès, modification
 2. Objects : Création, accès, modification
 3. Boucles sur les objets & tableaux (forEach, map, filter, reduce, some, every, etc.)
