@@ -31,6 +31,19 @@ Récap de tout ce qu'on a déjà vu ensemble en Javascript
 10. [Conversion température](https://github.com/ocrzia/JS10-Conversion-temp-fct)
 11. [Progress Bar & Sticky menu](https://github.com/ocrzia/JS11-Progress-bar-sticky-menu)
 12. [Gestion des dépenses](https://github.com/ocrzia/gestion-depenses) & [Gestion des dépenses + Bonus](https://github.com/ocrzia/JS12-Gestion-depenses-full)
+13. [Commande à la caisse](https://github.com/ocrzia/J13-Objects-commande)
+14. [Chevaliers](https://github.com/ocrzia/JS14-Objects-knights)
+15. [ScrollSpy (Bonus)](https://github.com/ocrzia/JS15-ScrollSpy)
+16. [Clés dynamiques dans les objets](https://github.com/ocrzia/JS16-Cle-dynamique)
+17. [Commandes groupées par table](https://github.com/ocrzia/JS17-Commandes-table)
+
+## Drill Supp
+1. [Exo supp Objets & Class 1](https://github.com/ocrzia/drill-objects-1)
+2. [Exo supp Objets & Class 2](https://github.com/ocrzia/drill-objects-2)
+3. [Exo supp Objets & Class 3](https://github.com/ocrzia/drill-objects-3)
+4. [Exo supp Objets & Class 4](https://github.com/ocrzia/drill-objects-4)
+5. [Exo supp Objets & Class 5](https://github.com/ocrzia/drill-objects-5)
+
 
 ## 1. Tableaux (`Array`)
 
